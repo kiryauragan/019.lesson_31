@@ -30,6 +30,7 @@ class Student {
 			this.absenceIndex++;
 		}
 	};
+	
 
 	get averagePresence() {
 		let presenceCount = this.absence.slice(0, this.absenceIndex).filter(x => x).length;
